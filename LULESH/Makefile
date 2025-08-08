@@ -11,6 +11,8 @@ export PATH := $(CUDA_PATH)/bin:$(PATH)
 export POLYGEIST_GPU_KERNEL_BLOCK_SIZE = 128
 export LD_LIBRARY_PATH := $(REACTANT_EXTRA_PATH):$(LD_LIBRARY_PATH)
 
+export DEBUG_REACTANT=1
+
 SM_VERSION  = 120
 
 # Ablation testing & numerical verification
